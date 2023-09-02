@@ -4,9 +4,12 @@ function findOut(val){
         
         if (arr[i]=== val){
             console.log(`Number ${val} Found at index ${i}`); 
-
+            break
         }
-        
+        else if (arr[i]!== val && i===arr.length - 1 ){
+            console.log(`Number ${val} Not Found `);
+        }
     };
-}
-findOut(4);
+}4
+findOut(4)
+
