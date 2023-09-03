@@ -1,5 +1,4 @@
-const arr = [1, 2, 1, 3, 4, 3, 5];
-
-const toFindDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) !== index)
-const duplicateElementa = tofindDuplicates(arry);
-console.log(duplicateElements);
+let Array1 = [1, 2, 3, 4, 5];
+let Array2 = Array1.slice();
+console.log("Duplicate array is:")
+console.log(duplicateArray);
